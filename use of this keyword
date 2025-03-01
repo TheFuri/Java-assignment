@@ -1,0 +1,17 @@
+class Example {
+    private int number;
+
+    
+    Example(int number) {
+        this.number = number;
+    }
+
+    void display() {
+        System.out.println("The number is: " + this.number);
+    }
+
+    public static void main(String[] args) {
+        Example obj = new Example(25);
+        obj.display();
+    }
+}

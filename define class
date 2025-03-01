@@ -1,0 +1,21 @@
+// Program 1: Define a class and access its members using an object
+class SampleClass {
+    int num;
+    String text;
+
+    void setValues(int n, String t) {
+        num = n;
+        text = t;
+    }
+
+    void display() {
+        System.out.println("Number: " + num);
+        System.out.println("Text: " + text);
+    }
+    
+    public static void main(String[] args) {
+        SampleClass obj = new SampleClass();
+        obj.setValues(10, "Hello, Java!");
+        obj.display();
+    }
+}
